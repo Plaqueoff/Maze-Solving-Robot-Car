@@ -1,0 +1,26 @@
+#VRML_SIM R2021b utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation 0.5433868307229738 -0.6121504654606201 -0.5744584926982873 4.320945935006485
+  position 9.246135962305694 8.619840092038055 9.494202151580614
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 22 22
+}
+Pioneer3at {
+  translation 9.5 0.01 9.5
+  rotation 0 0.7071066405940274 0.7071069217790398 3.141592653589793
+  controller "MazeRobotController"
+  extensionSlot [
+    GPS {
+    }
+    Compass {
+    }
+  ]
+}
